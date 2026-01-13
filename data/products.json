@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "title": "Laptop HP Pavilion 15",
+    "description": "Laptop con procesador Intel Core i5 de 11va generación, 8GB RAM DDR4, 256GB SSD NVMe, pantalla Full HD de 15.6 pulgadas",
+    "code": "LAP001",
+    "price": 899.99,
+    "status": true,
+    "stock": 15,
+    "category": "Computadoras",
+    "thumbnails": []
+  },
+  {
+    "id": 2,
+    "title": "Mouse Logitech MX Master 3",
+    "description": "Mouse inalámbrico ergonómico con sensor de alta precisión, botones personalizables y batería de larga duración",
+    "code": "MOU001",
+    "price": 89.99,
+    "status": true,
+    "stock": 50,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "id": 3,
+    "title": "Teclado Mecánico Razer BlackWidow",
+    "description": "Teclado mecánico gaming con switches verdes, iluminación RGB Chroma y reposamuñecas magnético",
+    "code": "TEC001",
+    "price": 129.99,
+    "status": true,
+    "stock": 30,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "id": 4,
+    "title": "Monitor Samsung Odyssey 27\"",
+    "description": "Monitor curvo WQHD de 27 pulgadas, 144Hz, 1ms de respuesta, panel VA con FreeSync Premium",
+    "code": "MON001",
+    "price": 349.99,
+    "status": true,
+    "stock": 20,
+    "category": "Monitores",
+    "thumbnails": []
+  },
+  {
+    "id": 5,
+    "title": "Auriculares Sony WH-1000XM5",
+    "description": "Auriculares inalámbricos con cancelación de ruido activa premium, 30 horas de batería, audio Hi-Res",
+    "code": "AUR001",
+    "price": 399.99,
+    "status": true,
+    "stock": 25,
+    "category": "Audio",
+    "thumbnails": []
+  },
+  {
+    "id": 6,
+    "title": "iPhone 15 Pro 256GB",
+    "description": "Smartphone con chip A17 Pro, cámara de 48MP, pantalla Super Retina XDR de 6.1 pulgadas, titanio",
+    "code": "CEL001",
+    "price": 1199.99,
+    "status": true,
+    "stock": 12,
+    "category": "Celulares",
+    "thumbnails": []
+  },
+  {
+    "id": 7,
+    "title": "Samsung Galaxy S24 Ultra",
+    "description": "Smartphone Android con S Pen, cámara de 200MP, pantalla AMOLED 6.8\", Snapdragon 8 Gen 3",
+    "code": "CEL002",
+    "price": 1299.99,
+    "status": true,
+    "stock": 18,
+    "category": "Celulares",
+    "thumbnails": []
+  },
+  {
+    "id": 8,
+    "title": "iPad Air M2 128GB",
+    "description": "Tablet con chip M2, pantalla Liquid Retina de 10.9 pulgadas, compatible con Apple Pencil y Magic Keyboard",
+    "code": "TAB001",
+    "price": 599.99,
+    "status": true,
+    "stock": 22,
+    "category": "Tablets",
+    "thumbnails": []
+  },
+  {
+    "id": 9,
+    "title": "SSD Samsung 980 PRO 1TB",
+    "description": "Unidad de estado sólido NVMe M.2 con velocidades de lectura hasta 7000 MB/s, ideal para gaming",
+    "code": "ALM001",
+    "price": 149.99,
+    "status": true,
+    "stock": 45,
+    "category": "Almacenamiento",
+    "thumbnails": []
+  },
+  {
+    "id": 10,
+    "title": "Webcam Logitech C920 HD Pro",
+    "description": "Cámara web Full HD 1080p con corrección de luz automática y micrófono estéreo dual",
+    "code": "WEB001",
+    "price": 79.99,
+    "status": true,
+    "stock": 35,
+    "category": "Accesorios",
+    "thumbnails": []
+  },
+  {
+    "id": 11,
+    "title": "PlayStation 5 Digital Edition",
+    "description": "Consola de videojuegos de nueva generación con SSD ultra rápido, ray tracing y 4K hasta 120fps",
+    "code": "CON001",
+    "price": 449.99,
+    "status": true,
+    "stock": 8,
+    "category": "Gaming",
+    "thumbnails": []
+  },
+  {
+    "id": 12,
+    "title": "Nintendo Switch OLED",
+    "description": "Consola híbrida con pantalla OLED de 7 pulgadas, 64GB de almacenamiento y dock mejorado",
+    "code": "CON002",
+    "price": 349.99,
+    "status": true,
+    "stock": 28,
+    "category": "Gaming",
+    "thumbnails": []
+  },
+  {
+    "id": 13,
+    "title": "Router ASUS RT-AX88U",
+    "description": "Router gaming WiFi 6 AX6000 con 8 puertos Gigabit LAN, seguridad AiProtection Pro",
+    "code": "RED001",
+    "price": 299.99,
+    "status": true,
+    "stock": 16,
+    "category": "Redes",
+    "thumbnails": []
+  },
+  {
+    "id": 14,
+    "title": "Impresora HP LaserJet Pro M404n",
+    "description": "Impresora láser monocromo con velocidad de 38 ppm, ethernet, bandeja de 350 hojas",
+    "code": "IMP001",
+    "price": 279.99,
+    "status": true,
+    "stock": 14,
+    "category": "Impresoras",
+    "thumbnails": []
+  },
+  {
+    "id": 15,
+    "title": "Apple Watch Series 9 GPS 45mm",
+    "description": "Smartwatch con pantalla Retina siempre activa, sensor de frecuencia cardíaca, resistente al agua",
+    "code": "REL001",
+    "price": 429.99,
+    "status": true,
+    "stock": 19,
+    "category": "Wearables",
+    "thumbnails": []
+  },
+  {
+    "id": 16,
+    "title": "Disco Duro Externo WD 4TB",
+    "description": "Disco duro portátil USB 3.0 con capacidad de 4TB, compatible con PC y Mac, incluye software de backup",
+    "code": "ALM002",
+    "price": 109.99,
+    "status": true,
+    "stock": 40,
+    "category": "Almacenamiento",
+    "thumbnails": []
+  },
+  {
+    "id": 17,
+    "title": "Micrófono Blue Yeti USB",
+    "description": "Micrófono profesional de condensador con múltiples patrones de grabación, ideal para streaming y podcasting",
+    "code": "AUD001",
+    "price": 129.99,
+    "status": true,
+    "stock": 27,
+    "category": "Audio",
+    "thumbnails": []
+  },
+  {
+    "id": 18,
+    "title": "Tarjeta Gráfica NVIDIA RTX 4070",
+    "description": "GPU con 12GB GDDR6X, arquitectura Ada Lovelace, ray tracing de 3ra generación, DLSS 3",
+    "code": "GPU001",
+    "price": 599.99,
+    "status": true,
+    "stock": 11,
+    "category": "Componentes",
+    "thumbnails": []
+  },
+  {
+    "id": 19,
+    "title": "Silla Gamer DXRacer Formula",
+    "description": "Silla ergonómica gaming con respaldo reclinable hasta 135°, reposabrazos 4D, soporte lumbar ajustable",
+    "code": "MUE001",
+    "price": 349.99,
+    "status": true,
+    "stock": 23,
+    "category": "Muebles",
+    "thumbnails": []
+  },
+  {
+    "id": 20,
+    "title": "Altavoces Logitech Z623 2.1",
+    "description": "Sistema de altavoces 2.1 con subwoofer, 200W RMS, certificación THX, entradas múltiples",
+    "code": "AUD002",
+    "price": 149.99,
+    "status": true,
+    "stock": 32,
+    "category": "Audio",
+    "thumbnails": []
+  }
+]

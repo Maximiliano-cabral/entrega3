@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <span class="status-indicator"></span>
+      {{title}}
+    </h1>
+    
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/realtimeproducts">Tiempo Real</a>
+    </div>
+
+    <div class="content-wrapper">
+      <!-- Formulario para agregar productos -->
+      <div class="form-section">
+        <h2>Agregar Producto</h2>
+        <form id="productForm">
+          <div class="form-group">
+            <label for="title">Título:</label>
+            <input type="text" id="title" name="title" required>
+          </div>
+
+          <div class="form-group">
+            <label for="description">Descripción:</label>
+            <textarea id="description" name="description" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="code">Código:</label>
+            <input type="text" id="code" name="code" required>
+          </div>
+
+          <div class="form-group">
+            <label for="price">Precio:</label>
+            <input type="number" id="price" name="price" step="0.01" required>
+          </div>
+
+          <div class="form-group">
+            <label for="stock">Stock:</label>
+            <input type="number" id="stock" name="stock" required>
+          </div>
+
+          <div class="form-group">
+            <label for="category">Categoría:</label>
+            <input type="text" id="category" name="category" required>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Agregar Producto</button>
+        </form>
+      </div>
+
+      <!-- Lista de productos -->
+      <div class="products-section">
+        <h2>Productos Disponibles</h2>
+        <div id="productsContainer" class="products-grid">
+          {{#if products.length}}
+            {{#each products}}
+              <div class="product-card" data-id="{{this.id}}">
+                <button class="btn-delete" onclick="deleteProduct({{this.id}})">Eliminar</button>
+                <h3 class="product-title">{{this.title}}</h3>
+                <p class="product-description">{{this.description}}</p>
+                
+                <div class="product-info">
+                  <span class="product-price">${{this.price}}</span>
+                  <span class="product-stock">Stock: {{this.stock}}</span>
+                </div>
+                
+                <div>
+                  <span class="badge badge-category">{{this.category}}</span>
+                </div>
+                
+                <p class="product-code">Código: {{this.code}}</p>
+              </div>
+            {{/each}}
+          {{else}}
+            <div class="no-products">
+              <p>No hay productos disponibles</p>
+            </div>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/realtime.js"></script>
+</body>
+</html>

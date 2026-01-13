@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>{{title}}</h1>
+    
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/realtimeproducts">Tiempo Real</a>
+    </div>
+
+    {{#if products.length}}
+      <div class="products-grid">
+        {{#each products}}
+          <div class="product-card">
+            <h2 class="product-title">{{this.title}}</h2>
+            <p class="product-description">{{this.description}}</p>
+            
+            <div class="product-info">
+              <span class="product-price">${{this.price}}</span>
+              <span class="product-stock">Stock: {{this.stock}}</span>
+            </div>
+            
+            <div>
+              <span class="badge badge-category">{{this.category}}</span>
+              {{#if this.status}}
+                <span class="badge badge-status">Disponible</span>
+              {{/if}}
+            </div>
+            
+            <p class="product-code">Código: {{this.code}}</p>
+          </div>
+        {{/each}}
+      </div>
+    {{else}}
+      <div class="no-products">
+        <p>No hay productos disponibles</p>
+      </div>
+    {{/if}}
+  </div>
+</body>
+</html>
